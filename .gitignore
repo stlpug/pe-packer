@@ -1,4 +1,3 @@
-puppetagent/.bundle/
-puppetagent/packer_cache/
-puppetmaster/.bundle/
-puppetmaster/packer_cache/
+.bundle/
+packer_cache/
+*.box
