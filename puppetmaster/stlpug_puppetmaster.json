@@ -37,7 +37,10 @@
       "override": {
         "virtualbox": {
           "output": "stlpug-master-centos-6-6-x64-virtualbox.box"
-        }
+        },
+	"qemu": {
+          "output": "stlpug-master-centos-6-6-x64-libvirt.box"
+	}
       }
     }
   ],
@@ -85,7 +88,7 @@
       "ssh_wait_timeout": "10000s",
       "shutdown_command": "echo 'vagrant' | sudo -S shutdown -P now",
       "vm_name": "{{.Name}}",
-      "headless": "false"
+      "headless": "true"
     }
   ]
 }
