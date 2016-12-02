@@ -2,8 +2,8 @@
   "provisioners": [
     {
       "type": "file",
-      "source": "files/puppet-enterprise-2015.2.3.answers",
-      "destination": "/tmp/puppet-enterprise-2015.2.3.answers"
+      "source": "files/puppetmaster.conf",
+      "destination": "/tmp/puppetmaster.conf"
     },
     {
       "type": "shell",
@@ -27,7 +27,7 @@
       "type": "vagrant",
       "override": {
         "virtualbox": {
-          "output": "stlpug-master-centos-6-6-x64-virtualbox.box"
+          "output": "stlpug-master-centos-6-x64-virtualbox.box"
         }
       }
     }
