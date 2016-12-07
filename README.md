@@ -13,7 +13,7 @@ packer build puppetagent/stlpug_puppetagent.json
 
 
 ### prebuild images from these templates are available here:
-- [stlpug puppetmaster](http://kristianreese.com/stlpug/stlpug-master-centos-6-6-x64-virtualbox.box)
+- [stlpug puppetmaster](http://kristianreese.com/stlpug/stlpug-master-centos-6-x64-virtualbox.box)
 - [stlpug puppetagent](http://kristianreese.com/stlpug/stlpug-agent-centos-6-6-x64-virtualbox.box)
 
-These images are also included in the Vagrantfile within the stlpug/pe-agent repository
+These images are also included in the Vagrantfile within the various project branchs of the stlpug/pe-vagrant repository
